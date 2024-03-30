@@ -33,7 +33,7 @@ function addData() {
 
 function removeAdmin() {
   //Write your code here, just console.log
-  arr = arr.reduce((element)=> element.profession !== "admin");
+  arr = arr.filter((element)=> element.profession !== "admin");
   console.log(arr)
 }
 
